@@ -1,0 +1,1447 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "FileName": "PPBG.png",
+            "Alpha": 255,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "Name": "tiledImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 1024,
+            "Height": 600,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_480x272px.png",
+            "Alpha": 255,
+            "Style": "Image2",
+            "Name": "background",
+            "X": 160,
+            "Y": 104,
+            "Width": 480,
+            "Height": 272,
+            "Visible": false,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "BorderSize": 1,
+            "Alpha": 255,
+            "Name": "graphBackground",
+            "X": 175,
+            "Y": 128,
+            "Width": 389,
+            "Height": 224,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "DynamicGraph",
+            "DataSeed": 1263446126,
+            "NumberOfValues": 100,
+            "MaxY": 180.0,
+            "MinY": 0.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": true,
+            "FirstIndex": 0,
+            "LastIndex": 100,
+            "MapDataPointIndexToCustomValue": false,
+            "XAxisOffset": 0.0,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": false,
+            "Alpha": 255,
+            "LabelSizeTop": 10,
+            "LabelSizeBottom": 22,
+            "LabelSizeLeft": 28,
+            "LabelSizeRight": 19,
+            "PaddingTop": 1,
+            "PaddingBottom": 6,
+            "PaddingLeft": 6,
+            "PaddingRight": 0,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                },
+                "Alpha": 255
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 20.0,
+              "LineWidth": 1,
+              "Alpha": 255
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "NumberOfDecimals": 0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 0,
+                "Green": 0,
+                "Blue": 0
+              },
+              "TextId": "SingleUseId2",
+              "Alpha": 255,
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 20.0,
+              "NumberOfDecimals": 0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 0,
+                "Green": 0,
+                "Blue": 0
+              },
+              "TextId": "SingleUseId1",
+              "Alpha": 255,
+              "TextRotation": "0",
+              "Position": "Left"
+            },
+            "Name": "graph",
+            "X": 175,
+            "Y": 128,
+            "Width": 389,
+            "Height": 224,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Slider",
+            "IsHorizontalSlider": false,
+            "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+            "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+            "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+            "BackgroundX": 7,
+            "BackgroundY": 3,
+            "IndicatorPos": 0,
+            "IndicatorMax": 125,
+            "IndicatorMin": 0,
+            "ValueMax": 250,
+            "ValueMin": 20,
+            "InitValue": 180,
+            "Style": "Style1",
+            "Name": "sliderResolution",
+            "X": 586,
+            "Y": 151,
+            "Width": 34,
+            "Height": 179,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "YID.png",
+            "Released": "YID.png",
+            "Alpha": 255,
+            "Name": "button1",
+            "X": 687,
+            "Y": 348,
+            "Width": 200,
+            "Height": 200,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "YRD.png",
+            "Released": "YRD.png",
+            "Alpha": 255,
+            "Name": "button2",
+            "X": 104,
+            "Y": 355,
+            "Width": 200,
+            "Height": 200,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "YHT.png",
+            "Released": "YHT.png",
+            "Alpha": 255,
+            "Name": "button3",
+            "X": 687,
+            "Y": 51,
+            "Width": 200,
+            "Height": 200,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "YAC.png",
+            "Released": "YAC.png",
+            "Alpha": 255,
+            "Name": "button4",
+            "X": 104,
+            "Y": 51,
+            "Width": 200,
+            "Height": 200,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen3"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen4"
+            }
+          }
+        ],
+        "Name": "Main",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 15360
+      },
+      {
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "FileName": "PPBG.png",
+            "Alpha": 255,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "Name": "tiledImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 1024,
+            "Height": 600,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "back2.png",
+            "Released": "back2.png",
+            "Alpha": 255,
+            "Name": "button1",
+            "X": 935,
+            "Y": 549,
+            "Width": 32,
+            "Height": 32,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId22",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 40
+            },
+            "Name": "textArea1",
+            "X": 123,
+            "Y": 239,
+            "Width": 498,
+            "Height": 123,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId23",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea2",
+            "X": 37,
+            "Y": 92,
+            "Width": 467,
+            "Height": 55,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId24",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea3",
+            "X": 621,
+            "Y": 239,
+            "Width": 392,
+            "Height": 123,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          }
+        ],
+        "Name": "Screen1",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "FileName": "PPBG.png",
+            "Alpha": 255,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "Name": "tiledImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 1024,
+            "Height": 600,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "BorderSize": 0,
+            "Alpha": 255,
+            "Name": "boxWithBorder1",
+            "X": 144,
+            "Y": 56,
+            "Width": 737,
+            "Height": 488,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "DynamicGraph",
+            "DataSeed": 1651978318,
+            "NumberOfValues": 100,
+            "MaxY": 10000.0,
+            "MinY": 0.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": true,
+            "FirstIndex": 0,
+            "LastIndex": 50,
+            "MapDataPointIndexToCustomValue": false,
+            "XAxisOffset": 0.0,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "Alpha": 255,
+            "LabelSizeTop": 20,
+            "LabelSizeBottom": 30,
+            "LabelSizeLeft": 70,
+            "LabelSizeRight": 20,
+            "PaddingTop": 0,
+            "PaddingBottom": 0,
+            "PaddingLeft": 0,
+            "PaddingRight": 0,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                },
+                "Alpha": 255
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 2000.0,
+              "LineWidth": 1,
+              "Alpha": 255
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 2000.0,
+              "NumberOfDecimals": 0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "SingleUseId21",
+              "Alpha": 255,
+              "TextRotation": "0",
+              "Position": "Left"
+            },
+            "Name": "dynamicGraph2",
+            "X": 192,
+            "Y": 116,
+            "Width": 640,
+            "Height": 388,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "back2.png",
+            "Released": "back2.png",
+            "Alpha": 255,
+            "Name": "button1",
+            "X": 928,
+            "Y": 551,
+            "Width": 32,
+            "Height": 32,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ],
+        "Name": "Screen2",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 15360
+      },
+      {
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "FileName": "PPBG.png",
+            "Alpha": 255,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "Name": "tiledImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 1024,
+            "Height": 600,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "back2.png",
+            "Released": "back2.png",
+            "Alpha": 255,
+            "Name": "button1",
+            "X": 941,
+            "Y": 554,
+            "Width": 32,
+            "Height": 32,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ],
+        "Name": "Screen3",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "TiledImage",
+            "FileName": "PPBG.png",
+            "Alpha": 255,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "Name": "tiledImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 1024,
+            "Height": 600,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "CircleProgress",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 42,
+            "LineWidth": 16,
+            "StartAngle": 0,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 255,
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_line_full.png",
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "circleProgress1",
+            "X": 0,
+            "Y": 0,
+            "Width": 104,
+            "Height": 104,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "CircleProgress",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 42,
+            "LineWidth": 16,
+            "StartAngle": 0,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 255,
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_line_full.png",
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "circleProgress1_1",
+            "X": 138,
+            "Y": 0,
+            "Width": 104,
+            "Height": 104,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "CircleProgress",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 42,
+            "LineWidth": 16,
+            "StartAngle": 0,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 255,
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_line_full.png",
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "circleProgress1_2",
+            "X": 0,
+            "Y": 131,
+            "Width": 104,
+            "Height": 104,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "CircleProgress",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 42,
+            "LineWidth": 16,
+            "StartAngle": 0,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 255,
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_line_full.png",
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "circleProgress1_3",
+            "X": 138,
+            "Y": 131,
+            "Width": 104,
+            "Height": 104,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "CircleProgress",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 42,
+            "LineWidth": 16,
+            "StartAngle": 0,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 255,
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_line_full.png",
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "circleProgress1_4",
+            "X": 276,
+            "Y": 0,
+            "Width": 104,
+            "Height": 104,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "CircleProgress",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 42,
+            "LineWidth": 16,
+            "StartAngle": 0,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 255,
+            "FileNameBackground": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_line_full.png",
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "circleProgress1_5",
+            "X": 276,
+            "Y": 131,
+            "Width": 104,
+            "Height": 104,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId18",
+              "UseBuffer": true,
+              "BufferSize": 20
+            },
+            "Name": "textArea1",
+            "X": 0,
+            "Y": 280,
+            "Width": 242,
+            "Height": 31,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "DynamicGraph",
+            "DataSeed": -114063774,
+            "NumberOfValues": 3,
+            "MaxY": 200.0,
+            "MinY": 0.0,
+            "Precision": "1",
+            "UseCustomVisibleDataPointRange": false,
+            "FirstIndex": 0,
+            "LastIndex": 2,
+            "MapDataPointIndexToCustomValue": false,
+            "XAxisOffset": 0.0,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "Alpha": 255,
+            "LabelSizeTop": 20,
+            "LabelSizeBottom": 50,
+            "LabelSizeLeft": 50,
+            "LabelSizeRight": 20,
+            "PaddingTop": 0,
+            "PaddingBottom": 0,
+            "PaddingLeft": 0,
+            "PaddingRight": 0,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "HistogramDrawer",
+                "BarWidth": 120,
+                "BarOffset": 0,
+                "Color": {
+                  "Red": 255,
+                  "Green": 186,
+                  "Blue": 0
+                },
+                "Alpha": 255
+              }
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 255,
+                "Green": 219,
+                "Blue": 0
+              },
+              "Interval": 10.0,
+              "LineWidth": 1,
+              "Alpha": 255
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "NumberOfDecimals": 0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 255,
+                "Green": 219,
+                "Blue": 0
+              },
+              "TextId": "SingleUseId8",
+              "Alpha": 255,
+              "TextRotation": "0",
+              "Position": "Left"
+            },
+            "Name": "dynamicGraph1",
+            "X": 387,
+            "Y": 12,
+            "Width": 606,
+            "Height": 558,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 219,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea2",
+            "X": 425,
+            "Y": 534,
+            "Width": 113,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId10",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 219,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea3",
+            "X": 650,
+            "Y": 534,
+            "Width": 107,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId11",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 219,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea4",
+            "X": 910,
+            "Y": 534,
+            "Width": 65,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId12",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 235,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea5",
+            "X": 298,
+            "Y": 173,
+            "Width": 62,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId13",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 235,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea6",
+            "X": 160,
+            "Y": 173,
+            "Width": 62,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId14",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 235,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea7",
+            "X": 22,
+            "Y": 173,
+            "Width": 62,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId15",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 235,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea8",
+            "X": 298,
+            "Y": 42,
+            "Width": 62,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId16",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 235,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea9",
+            "X": 160,
+            "Y": 42,
+            "Width": 62,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId17",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 235,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea10",
+            "X": 21,
+            "Y": 42,
+            "Width": 62,
+            "Height": 20,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId19",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 186,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId20",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "textArea11",
+            "X": 0,
+            "Y": 321,
+            "Width": 144,
+            "Height": 29,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "back2.png",
+            "Released": "back2.png",
+            "Alpha": 255,
+            "Name": "button1",
+            "X": 40,
+            "Y": 502,
+            "Width": 32,
+            "Height": 32,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ],
+        "Name": "Screen4",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 15360
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId2",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId1",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId8",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId9",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId10",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId11",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId12",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId13",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId14",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId15",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId16",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId17",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId6",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId18",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId19",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId20",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId21",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId22",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId23",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId24",
+        "IsResource": false
+      }
+    ],
+    "Name": "art_pi",
+    "Resolution": {
+      "Width": 1024,
+      "Height": 600
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 1024,
+        "Height": 600
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7"
+  },
+  "Version": "4.15.0"
+}
